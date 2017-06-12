@@ -1,6 +1,6 @@
 Pod::Spec.new do |s|
 s.name             = "31jinfu_github"
-s.version          = "1.0.0"
+s.version          = "1.0.1"
 s.summary          = "A short description of 31jinfu_github."
 s.description      = <<-DESC
 It is a marquee view used on iOS, which implement by Objective-C.
@@ -17,7 +17,7 @@ s.platform     = :ios
 # s.osx.deployment_target = '10.7'
 s.requires_arc = true
 
-#s.source_files = '31jinfu_github/*'
+#s.source_files = "31jinfu_github/*.{h,m}"
 # s.resources = 'Assets'
 
 # s.ios.exclude_files = 'Classes/osx'
