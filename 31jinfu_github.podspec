@@ -16,7 +16,7 @@ Pod::Spec.new do |s|
   #
 
   s.name         = "31jinfu_github"
-  s.version      = "0.0.2"
+  s.version      = "1.0.0"
   s.summary      = "A short description of 31jinfu_github."
 
   # This description is used to generate tags and improve search results.
@@ -28,7 +28,7 @@ Pod::Spec.new do |s|
                      是一个用于保存一些常用工具类的工具
                    DESC
 
-  s.homepage     = "http://EXAMPLE/31jinfu_github"
+  s.homepage     = "https://github.com/NiceSnow/31jinfu_github"
   # s.screenshots  = "www.example.com/screenshots_1.gif", "www.example.com/screenshots_2.gif"
 
 
@@ -39,7 +39,7 @@ Pod::Spec.new do |s|
   #  Popular ones are 'MIT', 'BSD' and 'Apache License, Version 2.0'.
   #
 
-  s.license      = "MIT (example)"
+  s.license      = "MIT"
   # s.license      = { :type => "MIT", :file => "FILE_LICENSE" }
 
 
@@ -80,7 +80,7 @@ Pod::Spec.new do |s|
   #  Supports git, hg, bzr, svn and HTTP.
   #
 
-  s.source       = { :git => "http://EXAMPLE/31jinfu_github.git", :tag => "#{s.version}" }
+  s.source       = { :git => "https://github.com/NiceSnow/31jinfu_github", :tag => s.version }
 
 
   # ――― Source Code ―――――――――――――――――――――――――――――――――――――――――――――――――――――――――――――― #
