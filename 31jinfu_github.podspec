@@ -9,7 +9,7 @@ s.homepage         = "https://github.com/NiceSnow/31jinfu_github"
 # s.screenshots      = "www.example.com/screenshots_1.gif", "www.example.com/screenshots_2.gif"
 s.license          = 'MIT'
 s.author           = { "madongdong" => "madongdong@31jinfu.com" }
-s.source           = { :git => "https://github.com/NiceSnow/31jinfu_github", :tag => s.version }
+s.source           = { :git => "https://github.com/NiceSnow/31jinfu_github.git", :tag => s.version }
 # s.social_media_url = "http://twitter.com/madongdong"
 
 s.platform     = :ios
@@ -17,7 +17,7 @@ s.platform     = :ios
 # s.osx.deployment_target = '10.7'
 s.requires_arc = true
 
-#s.source_files = "31jinfu_github/*.{h,m}"
+s.source_files = "31jinfu_github/**/*.{h,m}"
 # s.resources = 'Assets'
 
 # s.ios.exclude_files = 'Classes/osx'
